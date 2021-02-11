@@ -1,6 +1,7 @@
 # telegram-photo-bot
 The telegram-photo-bot is a bot that sends random images from a folder to a channel or chat.
 
+The motivation is to schedule the script to run, for example, daily to send you some of your favorite family photos.
 ## Installation
 
 Install via git.
