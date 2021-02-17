@@ -34,5 +34,4 @@ It provides a warning if you are running low, and quits if you have run out.
 1. If the JSON response from the API is not ok, the bot sends an error to the admin.
 1. The script retrieves the date of photo and sends it to the channel via the telegram API.
 1. The script logs the file as sent in a txt file.
-1. The script deletes the file from the folder. 
-   (This line is easy to comment out if you don't mind recycling photos.)
+1. The script deletes the file from the folder if config.recycle is set to False.

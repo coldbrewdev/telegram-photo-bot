@@ -62,7 +62,8 @@ def main():
     t = str(dt.datetime.now())
     with open(directory + 'log_sent_photos.txt', 'a') as log:
         log.write(file + ' ' + t + '\n')
-    os.remove(directory + file)
+    if not config.recycle:
+        os.remove(directory + file)
 
 
 if __name__ == '__main__':

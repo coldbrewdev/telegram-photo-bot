@@ -9,3 +9,5 @@ import os
 
 script_directory = os.path.dirname(os.path.abspath(__file__))
 local_directory = script_directory + '/' + local_directory
+
+recycle = False  # If true, photos won't be deleted after each use
